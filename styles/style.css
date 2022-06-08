@@ -21,6 +21,18 @@ body {
     background-color: #ffffff;
 }
 
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.visually-hidden {
+    visibility: hidden
+}
+
+.navigation-items, .advantages-item{
+    list-style-type: none;
+}
 .page-header {
     font-weight: 700;
     font-size: 20px;
