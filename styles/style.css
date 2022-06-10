@@ -57,6 +57,33 @@ body {
   background-color: #ffffff;
 }
 
+.navigation {
+  display: flex;
+  width: 1200xp;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  width: 483px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  width: 280px;
+  margin-left: auto;
+}
+
+.logo {
+  margin: 0 auto;
+  display: block;
+}
+
+.divider {
+  margin: 0 auto;
+  display: block;
+}
+
 .page-header a {
   color: #000000;
   background-color: #ffffff;
