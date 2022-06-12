@@ -49,6 +49,12 @@ body {
   list-style-type: none;
 }
 
+.advantages-item {
+  display: flex;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .page-header {
   font-weight: 700;
   font-size: 20px;
@@ -98,6 +104,23 @@ body {
 
 .description {
   text-align: center;
+  width: 1200px;
+  height: 282px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+
+}
+
+.advantages-block {
+  display: flex;
+  align-items: center;
+}
+
+.advantages-main-list {
+  padding: 0;
+  margin: 0 auto;
 }
 
 .description-title {
@@ -120,10 +143,18 @@ body {
 .advantages-group {
   color: #ffffff;
   background: #82B3D3;
+  height: 384px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .advantages-title-white {
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .advantages-title {
