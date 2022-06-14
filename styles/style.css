@@ -65,18 +65,22 @@ body {
 
 .navigation {
   display: flex;
-  width: 1200xp;
-  margin: 0 auto;
+  width: 1200px;
+  margin: auto;
 }
 
 .navigation-list {
-  width: 483px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 390px;
   margin: 0;
   padding: 0;
 }
 
 .navigation-user {
-  width: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 264px;
   margin-left: auto;
 }
 
@@ -92,7 +96,6 @@ body {
 
 .page-header a {
   color: #000000;
-  background-color: #ffffff;
   text-decoration: none;
 }
 
@@ -157,6 +160,18 @@ body {
   padding: 0;
 }
 
+.advantages-position {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: 385px;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
 .advantages-title {
   text-transform: uppercase;
   color: #000000;
@@ -186,6 +201,15 @@ body {
   text-transform: uppercase;
   color: #000000;
   text-align: center;
+}
+
+.interest-block {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 1200px;
+  height: 417px;
+  justify-content: center;
 }
 
 .interest-description {
@@ -224,12 +248,45 @@ body {
   color: #ffffff;
 }
 
+.subscribe-block {
+  margin: 0 auto;
+  width: 1200px;
+  height: 411px;
+}
+
+.newsletter-button {
+  margin: 0;
+  padding: 0;
+  background: #82B3D3;
+  border-radius: 0px 10px 10px 0px;
+  width: 200px;
+  height: 60px;
+}
+
+.footer-block {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+}
 .footer-phone {
   font-size: 40px;
   line-height: 40px;
   text-transform: uppercase;
   text-align: center;
 }
+
+.button-dark {
+  background: #756157;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
 
 /*Каталог*/
 
