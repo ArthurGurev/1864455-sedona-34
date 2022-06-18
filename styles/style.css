@@ -122,11 +122,6 @@ body {
 
 }
 
-.advantages-block {
-  display: flex;
-  align-items: center;
-}
-
 .advantages-main-list {
   padding: 0;
   margin: 0 auto;
@@ -160,7 +155,36 @@ body {
   justify-content: center;
 }
 
-.advantages-title-white {
+.advantages-house {
+  background-color: rgba(131, 179, 211, 0.12);
+  background-image: url('../images/index/images-main/house.svg');
+  background-size: 75px 72px;
+  background-repeat: no-repeat;
+}
+
+.advantages-suvenirs {
+  background-color: rgba(131, 179, 211, 0.12);
+  background-image: url('../images/index/images-main/souvenir.svg');
+  background-size: 64px 76px;
+  background-repeat: no-repeat;
+}
+
+.advantages-food {
+  background-color: #ffffff;
+  background-image: url('../images/index/images-main/food.svg');
+  background-size: 74px 70px;
+  background-repeat: no-repeat;
+}
+
+.advantages-bgcolor {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-bgcolor-second {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-title-difcolor {
   text-transform: uppercase;
   margin: 0;
   padding: 0;
@@ -200,9 +224,9 @@ body {
   color: #333333;
 }
 
-.advantages-bgcolor {
-  background: rgba(131, 179, 211, 0.12);
-}
+
+/*Interest*/
+
 
 .interest-title {
   font-weight: 700;
@@ -237,6 +261,10 @@ body {
   text-align: center;
 }
 
+
+/*Subscribe*/
+
+
 .subscribe-main {
   background-image: url(../images/index/images-main/canyon-blur.jpg);
   background-size: 100% auto;
@@ -248,7 +276,8 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  color: #ffffff
+  color: #ffffff;
+  text-align: center;
 }
 
 .subscribe-description {
@@ -273,16 +302,15 @@ body {
   height: 60px;
 }
 
+
+/*Footer*/
+
+
 .footer-social {
   display: flex;
   margin: 0;
   padding: 0;
-}
-
-.footer-block {
-  display: flex;
-  width: 940px;
-  margin: 0 auto;
+  height: 120px;
 }
 
 .footer-phone {
